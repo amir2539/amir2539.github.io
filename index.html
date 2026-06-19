@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir Torkaman — Golang & Blockchain Engineer</title>
+    <meta name="description" content="Golang Back-End Developer & Blockchain Engineer with 7+ years building high-performance APIs, payment systems, and Stellar Network services.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursorFollower"></div>
+
+    <nav id="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">
+                <span class="logo-at">AT</span><span class="logo-tag">_dev</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nl">about</a></li>
+                <li><a href="#skills" class="nl">skills</a></li>
+                <li><a href="#experience" class="nl">experience</a></li>
+                <li><a href="#resume" class="nl">resume</a></li>
+                <li><a href="#contact" class="nl nl--cta">contact →</a></li>
+            </ul>
+            <button class="burger" id="burger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#about">about</a>
+        <a href="#skills">skills</a>
+        <a href="#experience">experience</a>
+        <a href="#resume">resume</a>
+        <a href="#contact">contact</a>
+    </div>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div class="hero-wrap">
+            <div class="hero-left">
+                <div class="hero-badge r">
+                    <span class="badge-dot"></span>
+                    <span>Open to opportunities</span>
+                </div>
+                <p class="hero-hi r" style="--d:.08s">Hello — I'm</p>
+                <h1 class="hero-name r" style="--d:.14s">
+                    <span>Amir</span>
+                    <span class="grad-text">Torkaman</span>
+                </h1>
+                <div class="hero-role r" style="--d:.2s">
+                    <span class="role-line">_<span id="typedRole"></span><span class="caret">█</span></span>
+                </div>
+                <p class="hero-bio r" style="--d:.26s">
+                    Golang-focused engineer with <em>7+ years</em> building APIs,
+                    payment systems, and blockchain infrastructure on the <em>Stellar Network</em>.
+                </p>
+                <div class="hero-actions r" style="--d:.32s">
+                    <a href="#contact" class="btn btn-p">
+                        Get in touch
+                        <svg width="15" height="15" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <a href="#resume" class="btn btn-g">View resume</a>
+                </div>
+                <div class="hero-stats r" style="--d:.38s">
+                    <div class="stat"><span class="sv">7+</span><span class="sl">Years exp.</span></div>
+                    <div class="sdiv"></div>
+                    <div class="stat"><span class="sv">2M+</span><span class="sl">Records processed</span></div>
+                    <div class="sdiv"></div>
+                    <div class="stat"><span class="sv">100K+</span><span class="sl">Users served</span></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="scroll-hint">
+            <div class="sh-line"></div>
+            <span>scroll</span>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="sec-label r">01 — about</div>
+            <div class="about-grid">
+                <div class="about-left r" style="--d:.06s">
+                    <h2>Building <em>systems</em> that<br>scale, endure,<br>and perform.</h2>
+                </div>
+                <div class="about-right">
+                    <p class="r" style="--d:.08s">I'm a <strong>Golang back-end developer</strong> currently at <strong>Kuknos</strong>, architecting blockchain services connected to the <strong>Stellar Network</strong> — wallets, transactions, and distributed payment infrastructure.</p>
+                    <p class="r" style="--d:.14s">My philosophy: <strong>modularity, performance, and security-conscious design</strong>. I've processed 2M+ records, integrated multi-gateway payment systems, and built RESTful APIs serving 100K+ concurrent users — always with long-term maintainability in mind.</p>
+                    <div class="about-links r" style="--d:.2s">
+                        <a href="mailto:amirtorkaman5204@gmail.com" class="alink">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+                            amirtorkaman5204@gmail.com
+                        </a>
+                        <a href="https://www.linkedin.com/in/amir2539/" target="_blank" rel="noopener" class="alink">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                            linkedin.com/in/amir2539
+                        </a>
+                    </div>
+                    <div class="about-cards r" style="--d:.26s">
+                        <div class="ac"><span>⛓</span><p>Blockchain & Stellar Network</p></div>
+                        <div class="ac"><span>⚡</span><p>Performance Optimization</p></div>
+                        <div class="ac"><span>🔗</span><p>REST API Architecture</p></div>
+                        <div class="ac"><span>💳</span><p>Payment Systems</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="container">
+            <div class="sec-label r">02 — skills</div>
+            <h2 class="sec-heading r" style="--d:.06s">Technical Stack</h2>
+            <div class="skills-wrap">
+                <div class="sb sb--primary r" style="--d:.1s">
+                    <div class="sb-hd"><span class="sb-lbl">PRIMARY FOCUS</span><div class="sb-rule"></div></div>
+                    <div class="tags tags--lg">
+                        <span class="tag tag-go">Go (Golang)</span>
+                        <span class="tag tag-bc">Blockchain</span>
+                        <span class="tag tag-st">Stellar Network</span>
+                    </div>
+                </div>
+                <div class="sb r" style="--d:.16s">
+                    <div class="sb-hd"><span class="sb-lbl">BACK-END ENGINEERING</span><div class="sb-rule"></div></div>
+                    <div class="tags">
+                        <span class="tag">REST APIs</span>
+                        <span class="tag">Event-Driven Architecture</span>
+                        <span class="tag">Modular Services</span>
+                        <span class="tag">Database Design</span>
+                        <span class="tag">Payment Systems</span>
+                        <span class="tag">Caching</span>
+                        <span class="tag">Performance Optimization</span>
+                        <span class="tag">Security</span>
+                    </div>
+                </div>
+                <div class="sb r" style="--d:.22s">
+                    <div class="sb-hd"><span class="sb-lbl">SUPPORTING STACK</span><div class="sb-rule"></div></div>
+                    <div class="tags">
+                        <span class="tag tag-s">PHP</span>
+                        <span class="tag tag-s">Laravel</span>
+                        <span class="tag tag-s">WordPress</span>
+                        <span class="tag tag-s">Node.js</span>
+                        <span class="tag tag-s">Vue.js</span>
+                        <span class="tag tag-s">JavaScript</span>
+                        <span class="tag tag-s">Tailwind CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="container">
+            <div class="sec-label r">03 — experience</div>
+            <h2 class="sec-heading r" style="--d:.06s">Work History</h2>
+            <div class="timeline">
+
+                <div class="ti r" style="--d:.1s">
+                    <div class="ti-side">
+                        <span class="ti-period">03/2025 — Present</span>
+                        <div class="ti-dot ti-dot--live"><span class="ti-pulse"></span></div>
+                    </div>
+                    <div class="ti-card ti-card--current">
+                        <div class="ti-top">
+                            <div>
+                                <span class="ti-badge">Current Role</span>
+                                <h3>Golang Back-End Developer</h3>
+                                <div class="ti-co">Kuknos <span class="ti-loc">· Remote</span></div>
+                            </div>
+                            <span class="ti-hash">#BLOCK_01</span>
+                        </div>
+                        <div class="ti-tech"><span>Go (Golang)</span><span>Blockchain</span><span>Stellar Network</span><span>Backend APIs</span></div>
+                        <ul class="ti-ul">
+                            <li>Build Go backend services for blockchain products connected to the Stellar Network</li>
+                            <li>Implement API flows for wallet, payment, and blockchain operations with focus on reliability and security</li>
+                            <li>Work on transaction-oriented backend logic, service modules, and integration points across blockchain systems</li>
+                            <li>Write modular Go code structured for scalable back-end development</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ti r" style="--d:.15s">
+                    <div class="ti-side">
+                        <span class="ti-period">11/2023 — 03/2025</span>
+                        <div class="ti-dot"></div>
+                    </div>
+                    <div class="ti-card">
+                        <div class="ti-top">
+                            <div>
+                                <h3>Back-End Developer</h3>
+                                <div class="ti-co">Upolo <span class="ti-loc">· Tehran, Iran</span></div>
+                            </div>
+                            <span class="ti-hash">#BLOCK_02</span>
+                        </div>
+                        <div class="ti-tech"><span>Laravel</span><span>Node.js</span><span>Vue.js</span><span>Tailwind CSS</span><span>WordPress</span></div>
+                        <ul class="ti-ul">
+                            <li>Designed modular, event-driven backend APIs with clean service boundaries</li>
+                            <li>Developed a modular admin panel using Vue.js and Tailwind CSS</li>
+                            <li>Built a messaging system with Node.js integrated with backend workflows</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ti r" style="--d:.2s">
+                    <div class="ti-side">
+                        <span class="ti-period">08/2021 — 03/2023</span>
+                        <div class="ti-dot"></div>
+                    </div>
+                    <div class="ti-card">
+                        <div class="ti-top">
+                            <div>
+                                <h3>Back-End Developer</h3>
+                                <div class="ti-co">Xino Digital <span class="ti-loc">· Tehran, Iran</span></div>
+                            </div>
+                            <span class="ti-hash">#BLOCK_03</span>
+                        </div>
+                        <div class="ti-tech"><span>Laravel</span><span>PHP</span><span>WordPress</span><span>Vue.js</span><span>Node.js</span></div>
+                        <ul class="ti-ul">
+                            <li>Collected and processed <strong>2M+ data records</strong> at a daily rate of 20,000+ records</li>
+                            <li>Designed and implemented a payment system integrating <strong>3 payment gateways</strong></li>
+                            <li>Created a custom Laravel config-caching system improving performance and efficiency</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ti r" style="--d:.25s">
+                    <div class="ti-side">
+                        <span class="ti-period">07/2020 — 06/2021</span>
+                        <div class="ti-dot"></div>
+                    </div>
+                    <div class="ti-card">
+                        <div class="ti-top">
+                            <div>
+                                <h3>Back-End Developer</h3>
+                                <div class="ti-co">farskala <span class="ti-loc">· Tehran, Iran</span></div>
+                            </div>
+                            <span class="ti-hash">#BLOCK_04</span>
+                        </div>
+                        <div class="ti-tech"><span>PHP</span><span>WordPress</span><span>JavaScript</span></div>
+                        <ul class="ti-ul">
+                            <li>Accelerated search query speed by <strong>up to 75%</strong> through optimization and plugin development</li>
+                            <li>Built custom plugins, themes, and a warehouse management application</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ti r" style="--d:.3s">
+                    <div class="ti-side">
+                        <span class="ti-period">04/2020 — 04/2021</span>
+                        <div class="ti-dot"></div>
+                    </div>
+                    <div class="ti-card">
+                        <div class="ti-top">
+                            <div>
+                                <h3>Back-End Developer</h3>
+                                <div class="ti-co">Sookhtejet <span class="ti-loc">· Remote</span></div>
+                            </div>
+                            <span class="ti-hash">#BLOCK_05</span>
+                        </div>
+                        <div class="ti-tech"><span>PHP</span><span>WordPress</span><span>Laravel</span><span>JavaScript</span></div>
+                        <ul class="ti-ul">
+                            <li>Developed a RESTful API for a high-traffic application with <strong>100,000+ users</strong></li>
+                            <li>Built CRM workflows, WooCommerce/RCP payment plugins</li>
+                            <li>Optimized query speed by at least <strong>30%</strong></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ti r" style="--d:.35s">
+                    <div class="ti-side">
+                        <span class="ti-period">01/2017 — 04/2020</span>
+                        <div class="ti-dot"></div>
+                    </div>
+                    <div class="ti-card">
+                        <div class="ti-top">
+                            <div>
+                                <h3>Full-Stack Developer</h3>
+                                <div class="ti-co">Freelancer <span class="ti-loc">· Remote</span></div>
+                            </div>
+                            <span class="ti-hash">#BLOCK_06</span>
+                        </div>
+                        <div class="ti-tech"><span>PHP</span><span>Laravel</span><span>WordPress</span><span>JavaScript</span><span>Vue.js</span></div>
+                        <ul class="ti-ul">
+                            <li>Automated ad posting at <strong>1,000+ ads/hour</strong>, improving operational efficiency</li>
+                            <li>Delivered 10+ custom WordPress/WooCommerce plugins and REST APIs</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <div class="container">
+            <div class="sec-label r">04 — education</div>
+            <div class="edu-grid">
+                <div class="edu-card r" style="--d:.08s">
+                    <span class="edu-lvl">Master's Degree</span>
+                    <h3>Computer Software Engineering</h3>
+                    <p>Islamic Azad University</p>
+                    <span class="edu-yr">2022</span>
+                </div>
+                <div class="edu-card r" style="--d:.14s">
+                    <span class="edu-lvl">Bachelor's Degree</span>
+                    <h3>Computer Engineering</h3>
+                    <p>Daneshgah-e-Semnan</p>
+                    <span class="edu-yr">2016 — 2020</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume">
+        <div class="container">
+            <div class="sec-label r">05 — resume</div>
+            <h2 class="sec-heading r" style="--d:.06s">My Resume</h2>
+            <div class="resume-wrap r" style="--d:.12s">
+                <div class="resume-doc" id="resumeCard">
+                    <div class="rd-bg">
+                        <div class="rd-line rd-l1"></div>
+                        <div class="rd-line rd-l2"></div>
+                        <div class="rd-div"></div>
+                        <div class="rd-line rd-l3"></div>
+                        <div class="rd-line rd-l4"></div>
+                        <div class="rd-line rd-l3"></div>
+                        <div class="rd-div"></div>
+                        <div class="rd-line rd-l5"></div>
+                        <div class="rd-line rd-l3"></div>
+                        <div class="rd-line rd-l4"></div>
+                    </div>
+                    <div class="rd-over">
+                        <div class="rd-icon">
+                            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                        </div>
+                        <strong>Amir Torkaman</strong>
+                        <span>Golang Developer · Blockchain</span>
+                        <div class="rd-btns">
+                            <button class="btn btn-p" id="previewBtn">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                                Preview
+                            </button>
+                            <a href="Amir_Torkaman_Resume.pdf" download class="btn btn-g">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                                Download
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-meta">
+                    <div class="rm-row"><span class="rm-lbl">Format</span><span class="rm-val">PDF · 1 page</span></div>
+                    <div class="rm-row"><span class="rm-lbl">Updated</span><span class="rm-val">2025</span></div>
+                    <div class="rm-row"><span class="rm-lbl">Language</span><span class="rm-val">English</span></div>
+                    <p class="rm-note">Click the card or press Preview to view the resume inline without downloading.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <div class="container">
+            <div class="sec-label r">06 — contact</div>
+            <div class="contact-grid">
+                <div class="contact-left r" style="--d:.06s">
+                    <h2>Let's build something <em>remarkable</em> together.</h2>
+                    <p>Open to full-time roles, consulting, and collaboration in Go, blockchain, and back-end systems.</p>
+                </div>
+                <div class="contact-right">
+                    <a href="mailto:amirtorkaman5204@gmail.com" class="clink r" style="--d:.1s">
+                        <span class="clink-icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+                        </span>
+                        <span class="clink-body">
+                            <span class="clink-lbl">Email</span>
+                            <span class="clink-val">amirtorkaman5204@gmail.com</span>
+                        </span>
+                        <span class="clink-arr">↗</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/amir2539/" target="_blank" rel="noopener" class="clink r" style="--d:.16s">
+                        <span class="clink-icon clink-icon--li">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                        </span>
+                        <span class="clink-body">
+                            <span class="clink-lbl">LinkedIn</span>
+                            <span class="clink-val">linkedin.com/in/amir2539</span>
+                        </span>
+                        <span class="clink-arr">↗</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="foot-inner">
+                <span class="foot-logo">AT_dev</span>
+                <span class="foot-copy">© 2025 Amir Torkaman</span>
+                <div class="foot-links">
+                    <a href="mailto:amirtorkaman5204@gmail.com">Email</a>
+                    <a href="https://www.linkedin.com/in/amir2539/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- RESUME MODAL -->
+    <div id="modal" class="modal" role="dialog" aria-modal="true" aria-label="Resume Preview">
+        <div class="modal-bg" id="modalBg"></div>
+        <div class="modal-box">
+            <div class="modal-bar">
+                <div class="modal-title">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    Amir_Torkaman_Resume.pdf
+                </div>
+                <div class="modal-controls">
+                    <a href="Amir_Torkaman_Resume.pdf" download class="modal-dl">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Download
+                    </a>
+                    <button class="modal-x" id="modalClose" aria-label="Close">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                    </button>
+                </div>
+            </div>
+            <div class="modal-frame">
+                <iframe id="resumeFrame" src="" title="Amir Torkaman Resume">
+                    <p>Your browser cannot display PDFs. <a href="Amir_Torkaman_Resume.pdf">Download it here.</a></p>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
